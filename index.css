@@ -1,0 +1,61 @@
+body {
+  /*padding: 1rem;
+  margin: 1rem;*/
+  background-image: url(https://media1.giphy.com/media/1jY3oQvXNP79Y6K5d7/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: orange;
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: red;
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+
+*/ .nav-links {
+  font-size: 1.5rem;
+  border-radius: 2px solid red;
+}
+
+.planet-box {
+  width: 90%;
+  height: 500px;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border: 5px solid whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.planet-names {
+  background-color: blueviolet;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-family: cursive;
+  height: 10%;
+  display: flex;
+}
+
+.planet-names:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
